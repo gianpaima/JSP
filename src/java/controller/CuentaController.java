@@ -10,10 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import model.CuentaModel;
 
-/**
- *
- * @author Gustavo Coronel
- */
+
 public class CuentaController extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

@@ -1,10 +1,10 @@
 package dao;
 
-import dao.component.ClienteDAO;
-import dao.component.ContadorDAO;
-import dao.component.CuentaDAO;
-import dao.component.EmpleadoDAO;
-import dao.component.SucursalDAO;
+import dao.components.ClienteDAO;
+import dao.components.ContadorDAO;
+import dao.components.CuentaDAO;
+import dao.components.EmpleadoDAO;
+import dao.components.SucursalDAO;
 import dao.design.IClienteDAO;
 import dao.design.IContadorDAO;
 import dao.design.ICuentaDAO;
@@ -12,10 +12,7 @@ import dao.design.IEmpleadoDAO;
 import dao.design.ISucursalDAO;
 import dao.to.SucursalTO;
 
-/**
- *
- * @author Gustavo Coronel
- */
+
 public class DAOFactory {
 
     private static DAOFactory daoFac;
