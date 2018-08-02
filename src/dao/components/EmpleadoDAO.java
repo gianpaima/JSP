@@ -35,7 +35,7 @@ public class EmpleadoDAO implements IEmpleadoDAO {
     }
 
     public EmpleadoTO consultarPorUsuario(String usuario) throws Exception {
-        String sql = "select * from empleado where vch_emplusuario = ?";
+        String sql = "select * from empleado e join usuario u on e.chr_emplcodigo = u.chr_emplcodigo  where u.vch_emplusuario = ?";
         PreparedStatement ps = AccesoDB.getConnection().prepareStatement(sql);
         ps.setString(1, usuario);
         ResultSet rs = ps.executeQuery();

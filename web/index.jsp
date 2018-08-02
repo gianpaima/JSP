@@ -1,2 +1,2 @@
 
-<jsp:forward page="main.jsp"/>
+<jsp:forward page="view/login.jsp"/>

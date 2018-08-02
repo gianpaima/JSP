@@ -1,6 +1,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"  %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -8,7 +8,7 @@
 <head>
     <base href="<%= request.getRequestURL().toString()%>" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/EurekaBank.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/eurekaBank.css"/>
     <title>JSP Page</title>
 </head>
 <body>
