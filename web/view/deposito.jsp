@@ -15,7 +15,7 @@
 <table width="318">
     <tr>
         <td width="69">Usuario:</td>
-        <td width="239">${sessionScope.empleadoTO.usuario}</td>
+        <td width="240">${sessionScope.empleadoTO.usuario}</td>
     </tr>
     <tr>
         <td>Local:</td>
