@@ -14,7 +14,7 @@
 <h1>EurekaBank</h1>
 <table width="318">
     <tr>
-        <td width="67">Usuario:</td>
+        <td width="69">Usuario:</td>
         <td width="239">${sessionScope.empleadoTO.usuario}</td>
     </tr>
     <tr>
