@@ -7,7 +7,7 @@
 <head>
     <base href="<%= request.getRequestURL().toString()%>" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="../css/EurekaBank.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/eurekaBank.css"/>
     <title>JSP Page</title>
 </head>
 <body>
